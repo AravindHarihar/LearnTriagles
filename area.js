@@ -5,8 +5,8 @@ const outputEl = document.querySelector("#output");
 
 function calculateArea(){
     const area = 0.5 * base.value * height.value;
-    outputEl.innerText = "Area of the triangle = " + area + "sq.units";
+    outputEl.innerText = "Area of the triangle = " + area + " sq.units";
     
 }
 
-calculate.addEventListener("click", calculateArea);
+calculate.addEventListener("click", calculateArea); 
