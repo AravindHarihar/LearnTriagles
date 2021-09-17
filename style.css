@@ -31,11 +31,14 @@ body {
 
 .primary-link {
     background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    font-family: 'Montserrat', sans-serif;
 
     /* background-color: var(--primary-color); */
+    font-size: 1.5rem;
     text-decoration: none;
     border-radius: 0.5rem;
     color: white;
+    border: none;
 }
 
 .secondary-link {
@@ -78,6 +81,7 @@ hr {
 .navigation .navBrand {
     font-weight: bolder;
     font-size: 1.1rem;
+    text-decoration: none;
 }
 
 .navigation .link {
