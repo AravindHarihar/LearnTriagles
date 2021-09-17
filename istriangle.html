@@ -4,18 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Learn Triangles</title>
 </head>
 <body>
 
-    <label for="angle1">Enter angle one</label>
-    <input type="number" class="angle-input"/>
-    <label for="angle1">Enter angle two</label>
-    <input type="number" class="angle-input"/>
-    <label for="angle1">Enter angle three</label>
-    <input type="number" class="angle-input"/>
-    <button id="is-triangle-btn">Check</button>
-    <div id="output"></div>
+    <nav class="navigation container">
+        <div class="navBrand">Learn Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="">Is Triangles</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/quiz.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="hypotenuse.html">Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="area.html">Area</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class=" container container-center">
+        <div class="section ow">
+            <label for="angle1">Enter angle one</label>
+            <input type="number" class="angle-input"/>
+        </div>
+        <div class="section">
+            <label for="angle1">Enter angle two</label>
+            <input type="number" class="angle-input"/>
+        </div>
+
+        <div class="section ow">
+            <label for="angle1">Enter angle three</label>
+            <input type="number" class="angle-input"/>
+        </div>
+        <a class="link primary-link checkBtn" id="is-triangle-btn"> Is Triangle?</a>
+        
+        <!-- <button id="is-triangle-btn">Check</button> -->
+        <div id="output" class="hero hero-heading"></div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-header">You can find me on</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline "><a class="link" href="https://github.com/AravindHarihar">GitHub</a></li>
+            <li class="list-item-inline "><a class="link" href="https://github.com/AravindHarihar">Twitter</a></li>
+            <li class="list-item-inline "><a class="link" href="https://github.com/AravindHarihar">Instagram</a></li>
+        </ul>
+    </footer>
+
+
     <script src="/istriangle.js"></script>
 </body>
 </html>
