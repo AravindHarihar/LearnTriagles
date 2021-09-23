@@ -22,7 +22,7 @@ function calcHypotenuse(){
     const hypotenuseLength = Math.sqrt(sumOfSquares);
     
 
-    outputEl.innerText = "The length of hypotenuse is : " + hypotenuseLength;
+    outputEl.innerText = "The length of hypotenuse is: " + hypotenuseLength.toFixed(2) + " units";
 }
 
 hypotenuseBtn.addEventListener("click", areSidesPositive);
