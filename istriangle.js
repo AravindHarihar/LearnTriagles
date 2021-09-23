@@ -3,6 +3,16 @@ const isTriangleButton = document.querySelector("#is-triangle-btn");
 const output1 = document.querySelector("#output")
 
 
+
+function isEntryPositive(){
+    if(Number(inputs[0].value)>0 && Number(inputs[1].value)>0 && Number(inputs[2].value)>0){
+        isTriangle();
+    }else{
+        console.log("heree");
+        output1.innerText = "You cannot enter zero or negative number";
+    }
+}
+
 function isTriangle(){
     const sumOfAngles = calculateSumOfAngles(Number(inputs[0].value),Number(inputs[1].value),Number(inputs[2].value))
     
@@ -22,4 +32,4 @@ function calculateSumOfAngles(angle1, angle2, angle3){
 
 
 
-isTriangleButton.addEventListener("click", isTriangle);
+isTriangleButton.addEventListener("click", isEntryPositive);
