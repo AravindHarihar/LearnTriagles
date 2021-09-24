@@ -3,7 +3,7 @@ const submitAnswerBtn = document.querySelector("#submit-answers-btn");
 
 const outputEl = document.querySelector("#output");
 
-const correctAnswers = ["90", "right", "three"];
+const correctAnswers = ["90", "right", "three", "hypotenuse", "two"];
 
 
 function calculateScore(){
